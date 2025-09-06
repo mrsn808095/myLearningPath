@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    
+</head>
+<body>
+    <div class="calc">
+        <div class="display">
+            <a href="https://github.com/mrsn808095" class="txt">Calculator</a>
+            <div id="history"></div>
+            <input type="text" id="disp" style="font-size: xx-large;">
+        </div>
+        <div class="buttons">
+            <div class="row">
+                <button id="btn" onclick="allClear()">AC</button>
+                <button id="btn" onclick="allClear()">C</button>
+                <button id="btn" onclick="operator('%')">%</button>
+                <button id="btn" onclick="operator('/')">/</button>
+                
+            </div>
+            <div class="row">
+                <button style="text-align: center;" id="btn-num" onclick="btnclk(7)">7</button>
+                <button id="btn-num" onclick="btnclk(8)">8</button>
+                <button id="btn-num" onclick="btnclk(9)">9</button>
+                <button id="btn" onclick="operator('*')">X</button>
+                
+            </div>
+            <div class="row">
+                <button id="btn-num" onclick="btnclk(4)">4</button>
+                <button id="btn-num" onclick="btnclk(5)">5</button>
+                <button id="btn-num" onclick="btnclk(6)">6</button>
+                <button id="btn" onclick="operator('-')">-</button>
+                
+            </div>
+            <div class="row">
+                <button id="btn-num" onclick="btnclk(1)">1</button>
+                <button id="btn-num" onclick="btnclk(2)">2</button>
+                <button id="btn-num" onclick="btnclk(3)">3</button>
+                <button id="btn" onclick="operator('+')">+</button>
+                
+            </div>
+            <div class="row">
+                <button id="btn-num" onclick="btnclk(0)">0</button>
+                <button id="btn" onclick="btnclk('.')">.</button>
+                <button id="btndbl" onclick="calculate()">=</button>
+                
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

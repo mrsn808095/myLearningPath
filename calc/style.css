@@ -1,0 +1,76 @@
+#btn{
+    color: #fff;
+    background: #F8A145;
+    width: 65px;
+    height: 65px;
+    margin-top: 10px;
+    border-radius: 50%;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bolder;
+
+}
+.txt{
+    color: #fff;
+    text-decoration: none;
+}
+.txt:hover{
+    color: aliceblue;
+    text-decoration: wavy;
+}
+#btn:hover{
+    background:#f8d799
+}
+#btndbl{
+        color: #fff;
+    background: #F8A145;
+    width: 130px;
+    height: 65px;
+    margin-top: 10px;
+    border-radius: 30%;
+
+}
+#history{
+    width: 95%;
+    height: 40px;
+    margin: 5px;
+    font-size: large;
+    text-align: right;
+    overflow: hidden;
+}
+#btn-num{
+    background: #a0a0a0;
+    color: #fff;
+    width: 65px;
+    height: 65px;
+    margin-top: 10px;
+    border-radius: 50%;
+    border-color: rgb(77, 71, 70);
+
+}
+#btn-num:hover{
+    background: gainsboro;
+}
+#disp{
+    width :95% ;
+    height: 60px;
+    margin: 5px;
+    color: aquamarine;
+    text-align: right;
+    background: #000;
+}
+.calc{
+    background: #000;
+    width: 19%;
+    margin-left: 40%;
+    margin-top: 80px;
+}
+body{
+    font-family: inherit;
+    font-size: larger;
+    background: rgb(95, 89, 89);
+    color: aliceblue;
+}
+.display{
+
+    padding: 5px;
+}
